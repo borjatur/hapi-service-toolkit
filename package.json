@@ -1,0 +1,24 @@
+{
+  "name": "hapi-service-toolkit",
+  "version": "1.0.0",
+  "description": "toolkit for hapi services",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/lab -v -a @hapi/code --leaks"
+  },
+  "keywords": [
+    "hapi",
+    "plugin",
+    "healthcheck"
+  ],
+  "author": "borja.tur@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/code": "^6.0.0",
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/lab": "^19.1.0"
+  }
+}
