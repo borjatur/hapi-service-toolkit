@@ -14,6 +14,10 @@
     "plugin",
     "healthcheck"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:borjatur/hapi-service-toolkit.git"
+  },
   "author": "borja.tur@gmail.com",
   "license": "ISC",
   "devDependencies": {
