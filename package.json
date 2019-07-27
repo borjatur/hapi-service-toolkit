@@ -7,7 +7,7 @@
     "node": "8.x.x"
   },
   "scripts": {
-    "test": "node_modules/.bin/lab -v -a @hapi/code --leaks"
+    "test": "node_modules/.bin/lab -v -t 100 -a @hapi/code --leaks"
   },
   "keywords": [
     "hapi",
