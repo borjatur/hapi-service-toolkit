@@ -26,6 +26,8 @@
     "@hapi/lab": "^19.1.0"
   },
   "dependencies": {
-    "@hapi/oppsy": "^2.1.1"
+    "@hapi/oppsy": "^2.1.1",
+    "hapi-pino": "^6.0.1",
+    "pino": "^5.13.1"
   }
 }
