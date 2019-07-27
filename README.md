@@ -14,7 +14,7 @@ npm i --save hapi-service-toolkit
 Example:
 
 ```javascript
-const Hapi.server({ load: { sampleInterval: 1000 });
+const server = Hapi.server({ load: { sampleInterval: 1000 });
 
 // register the plugin in your hapi service
 await server.register({ 
