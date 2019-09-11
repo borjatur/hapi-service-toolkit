@@ -4,6 +4,8 @@ Hapi plugin adding common functionality to a service
 
   * /healthz endpoint will be added automatically for service health checking
   * /metrics endpoint showing a set of different server/process/os metrics
+  * Graceful shutdown management of node process
+  * Stdout logging
 
 ## Getting started
 
@@ -29,6 +31,8 @@ await server.register({
 
   * metrics //metrics options
     * opsInterval //interval in ms for capturing ops events
+  * logging
+    * enabled //true for enabling logging capabilities
 
 ## Endpoints
 
