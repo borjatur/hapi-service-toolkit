@@ -22,7 +22,7 @@
   "license": "ISC",
   "devDependencies": {
     "@hapi/code": "^6.0.0",
-    "@hapi/hapi": "^18.3.1",
+    "@hapi/hapi": "^19.1.1",
     "@hapi/lab": "^19.1.0"
   },
   "dependencies": {
